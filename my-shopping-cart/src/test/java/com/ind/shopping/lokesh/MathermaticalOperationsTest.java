@@ -2,7 +2,8 @@ package com.ind.shopping.lokesh;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
 
 public class MathermaticalOperationsTest {
 
@@ -11,5 +12,6 @@ public class MathermaticalOperationsTest {
 		MathematicalOperations mo = new MathematicalOperations();
 		int result = mo.add(2, 3);
 		assertEquals(5, result);
+		System.out.println(result);
 	}
 }
