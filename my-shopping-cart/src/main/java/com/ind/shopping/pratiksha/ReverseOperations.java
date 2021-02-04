@@ -5,13 +5,12 @@ public class ReverseOperations {
 		return a + b;
 	}
 	public int reverseNumber(int num) {
-		int rev=0;
+		int rev_num=0;
 		while(num>0) {
-			rev=rev*10+num%10;
-			num=num/10;
-			
+			rev_num=rev_num*10+num%10;
+			num=num/10;	
 		}
-		return rev;
+		return rev_num;
 	}
 
 }

@@ -6,8 +6,14 @@ import org.junit.jupiter.api.Test;
 
 
 
+
 public class ReverseOperationsTest {
-	
+	@Test
+	public void testAdd() {
+		ReverseOperations obj = new ReverseOperations();
+		int result = obj.add(2, 3);
+		assertEquals(5, result);
+	}
 
 		@Test
 		public void reverseNumber() {
