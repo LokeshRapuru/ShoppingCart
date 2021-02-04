@@ -17,7 +17,7 @@ public class Mathoperations {
 		return a1  - b1;
 	}
 	
-	public int factorial(int a1) {
+	public int factoriala(int a1) {
 		int fact =1;
 		for(int i=1;i<=5;i++)
 		{

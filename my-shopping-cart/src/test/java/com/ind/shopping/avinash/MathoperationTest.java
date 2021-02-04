@@ -39,9 +39,9 @@ public class MathoperationTest {
 	}
 
 	@Test
-	public void testfactorial() {
+	public void testfactoriala() {
 		Mathoperations obj3 = new Mathoperations();
-		int result3 = obj3.factorial(5);
+		int result3 = obj3.factoriala(5);
 		assertEquals(120, result3);
 		System.out.println("fact " + result3);
 	}
