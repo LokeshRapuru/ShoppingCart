@@ -9,8 +9,8 @@ public class MathoperationTest {
 	@Test
 	public void testmula() {
 		Mathoperations obj = new Mathoperations();
-		int result = obj.mula(8, 2);
-		assertEquals(16, result);
+		int result = obj.mula(4, 2);
+		assertEquals(8, result);
 		System.out.println("Mul " + result);
 	}
 
