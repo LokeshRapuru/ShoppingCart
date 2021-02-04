@@ -1,18 +1,13 @@
-package com.ind.shopping;
+package com.ind.shopping.vaibhav;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.ind.shopping.vaibhav.model.MultiplyNo;
-
 @SpringBootTest
-class MyShoppingCartApplicationTests {
+class ShoppingCartApplicationTests {
 
 	@Test
 	void contextLoads() {
-		
-		
-		
 	}
 
 }
