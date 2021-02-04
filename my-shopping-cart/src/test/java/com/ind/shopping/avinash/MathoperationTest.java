@@ -49,8 +49,15 @@ public class MathoperationTest {
 	@Test
 	public void testprime() {
 		Mathoperations obj4 = new Mathoperations();
-		int result4 = obj4.prime(12);
-		assertEquals(12, result4);
+		int result4 = obj4.prime(8);
+		assertEquals(8, result4);
 		System.out.println("No is " + result4);
+	}
+	@Test
+	public void testeven() {
+		Mathoperations obj3 = new Mathoperations();
+		int result5 = obj3.even(5);
+		assertEquals(5, result5);
+		System.out.println("No is " + result5);
 	}
 }
