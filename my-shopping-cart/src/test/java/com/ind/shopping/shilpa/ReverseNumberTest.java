@@ -10,8 +10,8 @@ public class ReverseNumberTest {
 	public void testrev()
 	{
 		ReverseNumber rn=new ReverseNumber();
-		int result=rn.revNum(473);
-		assertEquals(374,result);
+		int result=rn.revNum(47);
+		assertEquals(74,result);
 		
 
 	}
