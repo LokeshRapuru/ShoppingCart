@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 public class MathoperationTest {
 
 	@Test
-	public void testmul() {
+	public void testmula() {
 		Mathoperations obj = new Mathoperations();
-		int result = obj.mul(8, 2);
+		int result = obj.mula(8, 2);
 		assertEquals(16, result);
 		System.out.println("Mul " + result);
 	}

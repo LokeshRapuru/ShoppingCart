@@ -2,7 +2,7 @@ package com.ind.shopping.avinash;
 
 public class Mathoperations {
 	
-	public int mul(int a1, int b1) {
+	public int mula(int a1, int b1) {
 		return a1 * b1;
 		
 	}
