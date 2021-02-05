@@ -9,6 +9,9 @@ public class testCase_Maxnum {
 	public void testFindMax(){
 	MaxNum maxnum=new MaxNum();
 	assertEquals(4,maxnum.findMax(new int[]{1,3,4,2}));
+	int result=maxnum.comapre(3, 2);
+	assertEquals(3, result);
+	
 
 }
 }

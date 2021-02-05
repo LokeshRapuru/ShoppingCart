@@ -9,5 +9,14 @@ public class MaxNum {
 		}
 		return max;
 		}
+	public static int comapre(int x,int y) {
+		int a=x;
+		int b=y;
+		if(a>b) {
+			return a;
+		}else {
+			return b;
+		}
+	}
 
 }
