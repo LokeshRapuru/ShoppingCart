@@ -9,7 +9,7 @@ public class MathoperationTest {
 	@Test
 	public void testmula() {
 		Mathoperations obj = new Mathoperations();
-		int result = obj.mula(4, 2);
+		int result = obj.multification(4, 2);
 		assertEquals(8, result);
 		System.out.println("Mul " + result);
 	}
