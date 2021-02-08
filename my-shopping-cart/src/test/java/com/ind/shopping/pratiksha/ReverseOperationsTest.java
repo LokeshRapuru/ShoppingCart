@@ -30,7 +30,7 @@ public class ReverseOperationsTest {
 		@Test
 		public void reverseNumber() {
 			ReverseOperations mo = new ReverseOperations();
-			int result = mo.reverseNumber(5432);
-			assertEquals(2345, result);
+			int result = mo.reverseNumber(543);
+			assertEquals(345, result);
 		}
 }

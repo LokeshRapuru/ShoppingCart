@@ -10,8 +10,8 @@ public class ReverseOperations {
 	public int mul(int a, int b) {
 		return a * b;
 	}
-	public int div(int p, int q) {
-		return p / q;
+	public int div(int a, int b) {
+		return a / b;
 	}
 	public int reverseNumber(int num) {
 		int rev_num=0;
