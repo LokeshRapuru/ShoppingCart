@@ -2,7 +2,7 @@ package com.ind.shopping.avinash;
 
 public class Mathoperations {
 	
-	public int mul(int a1, int b1) {
+	public int multification(int a1, int b1) {
 		return a1 * b1;
 		
 	}
@@ -17,7 +17,7 @@ public class Mathoperations {
 		return a1  - b1;
 	}
 	
-	public int factorial(int a1) {
+	public int factoriala(int a1) {
 		int fact =1;
 		for(int i=1;i<=5;i++)
 		{
@@ -41,5 +41,15 @@ public class Mathoperations {
 			System.out.println("not prime");
 		}
 		return n;
+	}
+	
+	public int even(int n) {
+		if(n%2==0) {
+			System.out.println("even no");
+		}else {
+			System.out.println("odd no");
+		}
+			
+		return n ;
 	}
 }
