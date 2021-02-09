@@ -2,7 +2,7 @@ package com.ind.shopping.shilpa;
 
 public class ReverseNumber {
 
-	public int revNo(int num)
+	public int revNum(int num)
 	{
 		int rev=0;
 		while(num>0)
