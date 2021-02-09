@@ -11,6 +11,7 @@ public class MyShoppingCartApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyShoppingCartApplication.class, args);
+	
 	}
 
 	@Override
