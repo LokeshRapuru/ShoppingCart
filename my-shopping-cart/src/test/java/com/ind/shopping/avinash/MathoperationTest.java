@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 public class MathoperationTest {
 
 	@Test
-	public void testmul() {
+	public void testmula() {
 		Mathoperations obj = new Mathoperations();
-		int result = obj.mul(8, 2);
-		assertEquals(16, result);
+		int result = obj.multification(4, 2);
+		assertEquals(8, result);
 		System.out.println("Mul " + result);
 	}
 
@@ -39,9 +39,9 @@ public class MathoperationTest {
 	}
 
 	@Test
-	public void testfactorial() {
+	public void testfactoriala() {
 		Mathoperations obj3 = new Mathoperations();
-		int result3 = obj3.factorial(5);
+		int result3 = obj3.factoriala(5);
 		assertEquals(120, result3);
 		System.out.println("fact " + result3);
 	}
@@ -49,8 +49,15 @@ public class MathoperationTest {
 	@Test
 	public void testprime() {
 		Mathoperations obj4 = new Mathoperations();
-		int result4 = obj4.prime(12);
-		assertEquals(12, result4);
+		int result4 = obj4.prime(8);
+		assertEquals(8, result4);
 		System.out.println("No is " + result4);
+	}
+	@Test
+	public void testeven() {
+		Mathoperations obj3 = new Mathoperations();
+		int result5 = obj3.even(5);
+		assertEquals(5, result5);
+		System.out.println("No is " + result5);
 	}
 }
